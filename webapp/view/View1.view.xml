@@ -1,0 +1,16 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="sap.btp.helloworldui5.controller.View1">
+    <Page id="page" title="{i18n>title}">
+    <content>
+        <TileContent id="content0">
+            <content>
+                <FlexBox width="100%" id="box0">
+                    <items>
+                    <Text xmlns="sap.m" text="Accept the Button" id="text0"/>
+                    <Button xmlns="sap.m" text="Button" id="button0" press=".onPress"/>
+                    </items>
+                </FlexBox>
+            </content>
+        </TileContent>
+    </content>
+    </Page>
+</mvc:View>
